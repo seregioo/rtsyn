@@ -1,0 +1,19 @@
+[project]
+name = "plot-performance-telemtry"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sergio Hidalgo", email = "sergio.hidalgo.dev@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.1",
+]
+
+[project.scripts]
+plot-performance-telemtry = "plot_performance_telemtry:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
